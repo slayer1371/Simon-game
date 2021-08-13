@@ -10,8 +10,8 @@ function nextSequence(){
     $(b).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
 
     var aud=new Audio(randomChosenColour+'.mp3');
-    aud.autoplay;
-    // aud.play();
+    //aud.autoplay;
+    aud.play();
 }
 
 nextSequence();
